@@ -9,7 +9,7 @@ body {
   text-align: center;
   font-family: 'Roboto', sans-serif;
   color: #222;
-  background: #f7f5f0;
+  background: darkcyan;
 }
 /* Link Styles */
 
@@ -61,24 +61,28 @@ header {
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
-}
+ }
 header {
   line-height: 1.5;
 }
 header .profile-image {
-  margin-top: 50px;
-  width: 150px;
-  height: 150px;
+ 
+  background: url(images/me.png) no-repeat;
+  margin-top: 100px;
+  width: 115px;
+  height: 140px;
   border-radius: 50%;
-  border: 3px solid white;
+  
   transition: all .5s;
 }
+
 header .profile-image:hover {
-  transform: scale(1.2) rotate(5deg);
+  background: url(images/portland.jpg) no-repeat;
+   transform: scale(1.1) rotate(360deg);
 }
 .tag {
-  background-color: #efefef;
-  color: black;
+  background-color:yellowgreen;
+  color: red;
   padding: 10px;
   border-radius: 5px;
   display: table;
@@ -151,8 +155,12 @@ a.social {
   opacity: .4;
   transition: all .5s;
 }
-a.twitter {
-  background-image: url(images/twitter.svg);
+a.facebook {
+  background-image: url(images/facebook.png);
+}
+a.steam {
+  background-image: url(images/steam.png);
+
 }
 a.linkedin {
   background-image: url(images/linkedin.svg);
